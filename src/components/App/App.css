@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  /*background-color: #ffffff;*/
+}
+header {
+  position: absolute;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:stretch;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  position: relative;
+  top: 60px;
+  bottom: 100px;
+  right: 20px;
+  height: 40vmin;
+  pointer-events: none;
+}
+p {
+  position: relative;
+  top: 90px;
+  right: 10px;
+  font-size: 40px;
+  margin: 0;
+}
+
+
+.App-header { 
+  position: relative; 
+  z-index: 2;
+  background-image: url('../../coding2.jpg');
+  /*background-color: #ffffff;*/
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: #207178;
+}
+
+

@@ -1,0 +1,20 @@
+navContain {
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.generalNav {
+    background-color: white;
+    height: 75px;
+}
+
+.navItem {
+    flex: auto;
+    font-size: 1.3rem;
+    color: #207178;
+}
